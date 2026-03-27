@@ -1,0 +1,30 @@
+{
+  "name": "gh-profile-peek",
+  "version": "1.0.0",
+  "description": "Analyze any GitHub profile from your terminal — languages, top repos, activity",
+  "type": "module",
+  "bin": {
+    "gh-peek": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "profile",
+    "analyzer",
+    "developer-tools",
+    "terminal"
+  ],
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "ora": "^8.1.0"
+  }
+}

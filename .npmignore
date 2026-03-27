@@ -1,0 +1,6 @@
+.env
+.env.*
+*.test.js
+*.spec.js
+node_modules/
+GitHub-Analyzer-README.md
